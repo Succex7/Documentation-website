@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    height: 100vh;
+    margin:  auto;
+    border: black;
+    border-radius: 7px;
+}
+
+main {
+    background-color: #fffcf5;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+article {
+    text-align: justify;
+    padding-top: 7rem;
+    color: #1f2933;
+    overflow-y: auto;
+    scroll-padding-top: 120px;
+}
+
+article section {
+    scroll-margin-top: 120px;
+}
+
+aside {
+    width: 400px;
+    border: black;
+    position: sticky;
+    padding-top: 7rem;
+    top: 1rem;
+    height: fit-content;
+}
+
+aside ul li a {
+    list-style-type: none;
+    line-height: 1.5;
+    color: #000;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 10px, 10px,;
+    padding-left: 50px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+header {
+    margin-top: 1px;
+    background-color: #1e293b;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 7rem;
+    position: fixed;
+    max-width: 1200px;
+    top: 0;
+    z-index: 1000;
+}
+
+header p {
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a{
+    padding: 7px;
+    font-size: 24px;
+    color: #fff;
+}
+
+footer {
+    background-color: #1e293b;
+    height: 5rem;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+}
+
+#one {
+    background-color: rgb(219, 153, 164);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#two {
+    background-color: rgb(206, 153, 219);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#three {
+    background-color: rgb(153, 168, 219);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#four {
+    background-color: rgb(153, 211, 219);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#five {
+    background-color: rgb(153, 219, 181);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#six {
+    background-color: rgb(140, 158, 105);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#seven {
+    background-color: rgb(255, 248, 149);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#eight {
+    background-color: rgb(250, 124, 74);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#nine {
+    background-color: rgb(238, 198, 22);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#ten {
+    background-color: rgb(158, 131, 136);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#eleven {
+    background-color: rgb(74, 174, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#twelve {
+    background-color: rgb(115, 255, 0);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#thirteen {
+    background-color: rgb(255, 55, 55);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#fourteen {
+    background-color: rgb(228, 27, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#fifteen {
+    background-color: rgb(255, 137, 27);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+aside ul li a:active {
+    color: seagreen;
+}

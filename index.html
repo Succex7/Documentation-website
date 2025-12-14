@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>Mini Docs</h1>
+            <p>The World's Largest Web Developer site.</p>
+        </div>
+        <nav>
+            <a href="#">References</a>
+            <a href="#">Tutorials</a>
+            <a href="#">Examples</a>
+            <a href="#">Help</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h3>Table of Contents</h3>
+        <ul>
+            <li><a href="#one">Introduction to HTML</a></li>
+            <li><a href="#two">HTML Basic Structure</a></li>
+            <li><a href="#three">HTML Elements</a></li>
+            <li><a href="#four">HTML Attributes</a></li>
+            <li><a href="#five">HTML Headings and Paragraphs</a></li>
+            <li><a href="#six">HTML Links</a></li>
+            <li><a href="#seven">HTML Images</a></li>
+            <li><a href="#eight">HTML LIsts</a></li>
+            <li><a href="#nine">HTML Tables</a></li>
+            <li><a href="#ten">HTML Forms</a></li>
+            <li><a href="#eleven">HTML Semantic Tags</a></li>
+            <li><a href="#twelve">HTML Comments</a></li>
+            <li><a href="#thirteen">HTML Audio and Video</a></li>
+            <li><a href="#fourteen">HTML pre and code Tags</a></li>
+            <li><a href="#fifteen">Best practices</a></li>
+        </ul>
+        </aside>
+
+    <article>
+        <section id="one">
+            <h3>Introduction to HTML</h3>
+            <p>
+                HTML stands for <strong>HyperText Markup Language.</strong>
+                It is the standard language used to create and structure content on the web. Every website you've ever visited is built on HTML, whether simple or complex. <br>
+                HTML works by using "elements" that tell the browser what to show: text, messages, buttons, links, forms, etc.. It is the skeleton of every web page.</p>
+        </section>
+
+        <section id="two">
+            <h3>Basic Structure</h3>
+            <p>
+                Every HTML document has a simple structural pattern that the browser understands. 
+                The structure includes a document type declaration, a root element, a head section, an a body section. <br>
+                The head contains information about the webpage. The body contains everything you want users to see: text, images, links, etc.. <br>
+                Example:
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Document&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+            </p>
+        </section>
+
+        <section id="three">
+            <h3>HTML Elements</h3>
+
+            <p>
+                Elements are the building blocks of every webpage. <br>
+                An element is made up of:
+                <ul>
+                    <li>an opening tag</li>
+                    <li>some content</li>
+                    <li>and a closing tag</li>
+                </ul>
+                Some elements wrap around content, while some stand alone. <br>
+                Elements tell the browser what each part of the webpage represents, either a paragraph, a heading, an image, and so on. <br>
+
+                Example:
+                <pre>
+                    <code>
+                        &lt;header&gt;&lt;/header&gt;
+                        &lt;nav&gt;&lt;/nav&gt;
+                        &lt;main&gt;&lt;/main&gt;
+                        &lt;section&gt;&lt;/section&gt;
+                        &lt;article&gt;&lt;/article&gt;
+                        &lt;div&gt;&lt;/div&gt;
+                        &lt;p&gt;&lt;/p&gt;
+                    </code>
+                </pre>
+                
+            </p>   
+        </section>
+
+        <section id="four">
+            <h3>HTML Attributes</h3>
+
+            <p>
+                Attributes are extra instructions you attach to an element. <br>
+                They provide additional information or modify how elements behaves. <br>
+                Examples of what elements can do:
+                <ul>
+                    <li>Give an element an ID</li>
+                    <li>Add a class for styling</li>
+                    <li>Add a link to an image</li>
+                    <li>control how a link opens</li>
+                </ul>
+                Attributes always go inside the opening tag, an they come in the name/value pairs. <br>
+                Example:
+                <pre>
+                    <code>
+                        &lt;p class="p1"&gt;The attribute here is class&lt;/p&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="five">
+            <h3>HTML Headings and Paragraphs</h3>
+
+            <p>
+                headings help structure your page and show th importance of content. <br>
+                They run from the biggest (h1) to the smallest (h6). <br>
+                Paragraphs are used for writing blocks of text. <br>
+                They help separate ideas, improve readability, and keep your content organized. <br>
+                Example:
+                <pre>
+                    <code>
+                        &lt;h1&gt;This is h1 heading&lt;/h1&gt;
+                        &lt;h2&gt;This is h2 heading&lt;/h2&gt;
+                        &lt;h3&gt;This is h3 heading&lt;/h3&gt;
+                        &lt;h4&gt;This is h4 heading&lt;/h4&gt;
+                        &lt;h5&gt;This is h5 heading&lt;/h5&gt;
+                        &lt;h6&gt;This is h6 heading&lt;/h6&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="six">
+            <h3>HTML Links</h3>
+            <p>
+                Links allow users to move from one page to another, or to different sections of the same page. <br>
+                They can point to websites, phone numbers, email addresses, files, or internal locations on your page. <br>
+                Links are one of the core features that make the web interconnected. <br>
+                Examples:
+                <pre>
+                    <code>
+                        &lt;a href="#"&gt;link&lt;/a&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="seven">
+            <h3>HTML Images</h3>
+            <p>
+                Images add visual meaning t your webpage. You can display photos, illustrations, icons, and any media file supported by the browser. <br>
+                Every image needs a source and alternate text. The alternate text is especially helpful for accessibility and for situations where the image fails to load. <br>
+                Example:
+
+                <pre>
+                    <code>
+                        &lt;img src="image.jpg" alt="My picture"&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="eight">
+            <h3>HTML List</h3>
+            <p>
+                Lists help to organize information in a clean and readable way. <br>
+                There are two main types:
+                <ul>
+                    <li>Ordered lists (for numbered items)</li>
+                    <li>Unordered lists (for bullet points)</li>
+                </ul>
+                They are ideal for steps, summaries, menus, and grouped information. <br>
+                Example:
+
+                <pre>
+                    <code>
+                        &lt;ol&gt;
+                            &lt;li&gt;First ordered list item&lt;/li&gt;
+                            &lt;li&gt;Second ordered list item&lt;/li&gt;
+                            &lt;li&gt;Third ordered list item&lt;/li&gt;
+                        &lt;/ol&gt;
+
+                        &lt;ul&gt;
+                            &lt;li&gt;First unordered list item&lt;/li&gt;
+                            &lt;li&gt;Second unordered list item&lt;/li&gt;
+                            &lt;li&gt;Third unordered list item&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="nine">
+            <h3>HTML Tables</h3>
+            <p>
+                Tables allow you to present data in rows columns. They're great for schedules, price lists, comparison charts, and structured information. <br>
+                Tables are made of rows, header cells, and data cells. <br>
+                Example:
+
+                <pre>
+                    <code>
+                        &lt;table&gt;
+                            &lt;tr&gt;
+                                &lt;th&gt;Heading 1&lt;/th&gt;
+                                &lt;th&gt;Heading 2&lt;/th&gt;
+                            &lt;/tr&gt;
+
+                            &lt;tr&gt;
+                                &lt;td&gt;Data 1&lt;/td&gt;
+                                &lt;td&gt;Data 2&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="ten">
+            <h3>HTML Forms</h3>
+            <p>
+                Forms are how users interact with your website. They let people enter data like names, emails, passwords, messages, or search items. <br>
+                Forms contain different input types such as text fields, checkboxes, radio buttons and submit buttons. <br>
+                They are essential for login systems, contact pages, dashboards, and anything that collects information. <br>
+                Example:
+                
+                <pre>
+                    <code>
+                        &lt;form&gt;
+                            &lt;label for="name"&gt;Name&lt;/label&gt;
+                            &lt;input type="text" id="name" placeholder="Enter your name" required/&gt;
+
+                            &lt;label for="email"&gt;Email&lt;/label&gt;
+                            &lt;input type="email" id="email" placeholder="Enter your email" required/&gt;
+
+                            &lt;label&gt;&lt;input type="radio" name="recommend"&gt;This is a radio button 1&lt;/label&gt;
+                            &lt;label&gt;&lt;input type="radio" name="recommend"&gt;This is a radio button 2&lt;/label&gt;
+                        &lt;/form&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="eleven">
+            <h3>HTML Semantic Tags</h3>
+            <p>
+                Semantic tags help describe the meaning of content. They make webpages more readable for both humans and search engines. <br>
+                Examples include:
+
+                <ul>
+                    <li>chunks of content</li>
+                    <li>navigation menus</li>
+                    <li>headers</li>
+                    <li>footers</li>
+                    <li>highlighted sections</li>
+                </ul>
+
+                Semantic tags improve structure, SEO and accessibility. <br>
+                Examples:
+
+                <pre>
+                    <code>
+                        &lt;header&gt;header&lt;/header&gt;
+                        &lt;nav&gt;navigation&lt;/nav&gt;
+                        &lt;main&gt;main content&lt;/main&gt;
+                        &lt;section&gt;&lt;/section&gt;
+                        &lt;article&gt;&lt;/article&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="twelve">
+            <h3>HTML Comments</h3>
+            <p>
+                Comments allow you to leave notes inside your code, these notes are ignored by thr browser and only visible to developers. <br>
+                They're useful for reminders, explanations, disabling code temporarily, and organizing large projects. <br>
+                Example:
+
+                <pre>
+                    <code>
+                        &lt;!-- This is a comment --&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="thirteen">
+            <h3>HTML Audio and Video</h3>
+            <p>
+                Modern HTML lets you embed audio and video without extra plugins. <br>
+                You can play songs, podcasts, tutorials or show movies inline on your webpage. <br>
+                You can also enable controls like play, pause or volume. <br>
+                Example:
+
+                <pre>
+                    <code>
+                        &lt;audio controls&gt;
+                            &lt;source src="myaudio.mp3" type="audio/mp3"&gt;
+                            &lt;source src="myaudio.ogg" type="audio/ogg"&gt;
+                        &lt;/audio&gt;
+                        &lt;video controls poster="thumbnail.jpg"&gt;
+                            &lt;source src="myvideo.mp4" type="video/mp4"&gt;
+                            &lt;track src="subtitles_eng" kind="subtitles" srclang="en" label="english">&lt;/track&gt;
+                        &lt;/video&gt;
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="fourteen">
+            <h3>HTML pre and code Tags</h3>
+            <p>
+                These two tags allows you to display code exactly as it is typed.
+                <ul>
+                    <li>pre tag keeps spacing and line breaks</li>
+                    <li>code tag identifies the content as code</li>
+                </ul> 
+                Together, they are perfect for documentation websites, tutorials and examples.
+
+                <pre>
+                    <code>
+
+                        &lt;pre&gt;
+                            &lt;code&gt;
+                                &lt;p&gt;This is a code&lt;/p&gt;
+                            &lt;/code&gt;
+                        &lt;/pre&gt;
+
+                    </code>
+                </pre>
+            </p>
+        </section>
+
+        <section id="fifteen">
+            <h3>HTML Best Practices</h3>
+            <p>
+                Some good habits to follow as you grow: 
+                <ul>
+                    <li>Use proper indentation</li>
+                    <li>Write clean, readable codes</li>
+                    <li>Add comments for clarity</li>
+                    <li>Use semantic tags for good structure</li>
+                    <li>Always include alt text for images</li>
+                    <li>Validate your HTML regularly</li>
+                </ul>
+                These help you build professional, accessible, developer-friendly websites.
+            </p>
+        </section>
+    </main>
+    </article>
+    <footer>
+        &copy; copyrights 2025.
+    </footer>
+</body>
+</html>
